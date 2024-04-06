@@ -28,7 +28,7 @@ The `abide.npy` file contains the following contents:
 
 - **timeseries**: Represents the BOLD time series data for each subject. It's a numpy array with the shape (#sub, #ROI, #timesteps).
   
-- > **Label**: Provides the diagnosis label for Autism spectrum disorder for each subject. '0' denotes negative, and '1' indicates positive. It's a numpy array of shape (#sub).
+- > **Label**: Provides the diagnosis label for Autism spectrum disorder for each subject. '0' denotes positive , and '1' indicates negative. It's a numpy array of shape (#sub).
   
 - > **corr**: The correlation matrix calculated from BOLD time series data. It's a numpy array with the shape (#sub, #ROIs, #ROIs).
   
